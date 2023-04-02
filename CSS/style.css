@@ -174,7 +174,7 @@ section.profile .right ul.socials li a {
 }
 
 section.profile .right ul.socials li:nth-child(1) a {
-  background-color: var(--secondary);
+  background-color: red;
 }
 
 section.profile .right ul.socials li:nth-child(2) a {
