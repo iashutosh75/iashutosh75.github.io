@@ -1,7 +1,5 @@
-/*font style*/
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&display=swap");
 
-/*colors*/
 :root {
   --primary: #1a253f;
   --dark: #151a33;
@@ -22,7 +20,6 @@
   --yellow: #f3c74d;
 }
 
-/*reset*/
 * {
   margin: 0;
   padding: 0;
@@ -31,7 +28,7 @@
 
 body {
   font-family: "IBM Plex Sans", sans-serif;
-  background: var(--dark);
+  background: whitesmoke;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -50,7 +47,7 @@ h5 {
 }
 
 nav {
-  background: var(--primary);
+  background: orange;
   padding: 1.6rem 0;
 }
 
@@ -69,16 +66,17 @@ nav .inner .logo {
 }
 
 nav .inner button {
-  background: var(--secondary);
+  background: white;
   border: none;
   padding: 0.6rem 1rem;
-  color: var(--pure);
+  color: orange;
   font: size 14px;
+  font-weight: 800;
   border-radius: 4px;
 }
 
 section.profile {
-  background: var(--dark);
+  background: orange;
   display: flex;
   align-items: center;
   padding: 3rem;
@@ -98,14 +96,14 @@ section.profile .right {
 }
 
 section.profile .left h2 {
-  color: var(--fade);
+  color: white;
   font-size: 24px;
   font-weight: 600;
   margin-bottom: 1rem;
 }
 
 section.profile .left p {
-  color: var(--mild);
+  color: white;
   font-size: 14px;
 }
 
@@ -125,14 +123,14 @@ section.profile .left .avatar__block span {
   position: absolute;
   right: 4;
   bottom: 4;
-  background: var(--info);
+  background: white;
   width: 32px;
   height: 32px;
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
-  color: var(--pure);
+  color: black;
   box-shadow: 0px 0px 20px 0px rgba(32, 41, 54, 0.05);
   cursor: pointer;
 }
@@ -143,7 +141,7 @@ section.profile .right ul.contact {
 }
 
 section.profile .right ul.contact li {
-  color: var(--ternary);
+  color: white;
   margin-bottom: 0.7rem;
   font-size: 14px;
 }
@@ -160,7 +158,7 @@ section.profile .right ul.socials {
 }
 
 section.profile .right ul.socials li {
-  margin-right: 0.8rem;
+  margin-right: 1rem;
 }
 
 section.profile .right ul.socials li a {
@@ -168,35 +166,36 @@ section.profile .right ul.socials li a {
   width: 36px;
   height: 36px;
   border-radius: 50%;
-  color: var(--pure);
+  color: white;
   line-height: 32px;
   text-align: center;
 }
 
+/* section.profile .right ul.socials li i {
+  width: 500;
+  height: auto;
+} */
+
 section.profile .right ul.socials li:nth-child(1) a {
-  background-color: red;
+  background-color: orange;
 }
 
 section.profile .right ul.socials li:nth-child(2) a {
-  background-color: var(--dribbble);
+  background-color: orange;
 }
 
 section.profile .right ul.socials li:nth-child(3) a {
-  background-color: var(--twitter);
+  background-color: orange;
 }
 
 section.profile .right ul.socials li:nth-child(4) a {
-  background-color: var(--dark-grey);
-}
-
-section.profile .right ul.socials li:nth-child(5) a {
-  background-color: var(--secondary);
+  background-color: orange;
 }
 
 .section__heading {
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 500;
-  color: var(--pure);
+  color: orange;
   margin-bottom: 3rem;
   text-shadow: 0 0 1px rgba(40, 54, 95, 0.1);
 }
@@ -206,7 +205,7 @@ section {
 }
 
 main {
-  background: var(--primary);
+  background: white;
 }
 
 .section__heading:after {
@@ -234,7 +233,7 @@ section.about .content h2 {
 }
 
 section.about .content p {
-  color: var(--ternary);
+  color: #808080;
   font-size: 16px;
   line-height: 1.6;
   letter-spacing: 0.1px;
@@ -242,10 +241,11 @@ section.about .content p {
 }
 
 section.about .content .left button {
-  background: rgba(77, 121, 246, 0.1);
-  color: var(--pure);
+  background: orange;
+  color: white;
   padding: 4px 8px;
   font-size: 12px;
+  font-weight: 800;
   border: none;
   line-height: 24px;
   outline: none;
@@ -255,7 +255,8 @@ section.about .content .left button {
 section.about .content .right p {
   line-height: 1.6;
   font-size: 14px;
-  color: var(--ternary);
+  font-weight: 500;
+  color: #808080;
   letter-spacing: 0.1px;
   margin-bottom: 1rem;
 }
@@ -265,6 +266,7 @@ section.about .content .right p span:nth-child(1) {
   float: left;
   font-weight: 500px;
   padding-right: 10px;
+  color: var(--info);
   display: block;
   position: relative;
 }
@@ -298,14 +300,14 @@ section.skills .content .left .heading {
 }
 
 section.skills .content .left .heading i {
-  color: var(--fade);
+  color: orange;
   font-size: 52px;
 }
 
 section.skills .content .left .heading h5 {
   font-size: 16px;
   margin-top: 0.5rem;
-  color: var(--mild);
+  color: var(--info);
 }
 
 section.skills .content .left p {
@@ -494,7 +496,7 @@ section.contact .wrapper .left > div div:nth-child(1) {
 
 section.contact .wrapper .left i {
   font-size: 30px;
-  color: var(--info);
+  color: orange;
 }
 
 section.contact .wrapper .left h4 {
@@ -552,11 +554,12 @@ section.contact .wrapper .right .form__group.textarea__wrapper {
 }
 
 section.contact .wrapper .right button {
-  background: var(--info);
+  background: orange;
   border: none;
   padding: 1rem 2rem;
   color: var(--pure);
   font-size: 14px;
+  font-weight: 600;
   border-radius: 4px;
   cursor: pointer;
   transition: all 0.3s ease-in-out;
@@ -567,11 +570,12 @@ section.contact .wrapper .right button:hover {
 }
 
 footer {
-  background: var(--footer);
+  background: orange;
   text-align: center;
   padding: 2rem 0;
-  font-size: 14px;
-  color: var(--ternary);
+  font-size: 18px;
+  font-weight: 800;
+  color: white;
 }
 
 /* ...........media quaries for responsiveness .............. */
