@@ -171,10 +171,9 @@ section.profile .right ul.socials li a {
   text-align: center;
 }
 
-/* section.profile .right ul.socials li i {
-  width: 500;
-  height: auto;
-} */
+section.profile .right ul.socials li i {
+  font-size: 30px;
+}
 
 section.profile .right ul.socials li:nth-child(1) a {
   background-color: orange;
